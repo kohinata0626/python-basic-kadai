@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMqNHGVuwxV9GoY+5J1PLIR",
+      "authorship_tag": "ABX9TyPmEC5EVgrPjl0ME6kKB1LC",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 14,
+      "execution_count": 15,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "ICL7xo7BHWAn",
-        "outputId": "f549e6bd-b915-4c36-c1ea-e32dfbed67f2"
+        "outputId": "33244ee8-f6a3-449f-f751-7827177d62e5"
       },
       "outputs": [
         {
@@ -68,7 +68,6 @@
         "for i in range(0,9):\n",
         "  print(array[i])\n",
         "\n",
-        "array = [\"水\",\"金\",\"地\",\"火\",\"木\",\"土\",\"天\",\"海\",\"冥\"]\n",
         "o = 0\n",
         "while o < 9:\n",
         "  print(array[o])\n",
