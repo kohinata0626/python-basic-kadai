@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNFDE8hh6lOxCARithOAIyK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kohinata0626/python-basic-kadai/blob/main/kadai_015\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Human:\n",
+        "    def __init__(self, name, age):\n",
+        "        self.name = name\n",
+        "        self.age = age\n",
+        "\n",
+        "user = User(\"侍太郎\", 36,\"男性\")\n",
+        "\n",
+        "print(user.name)\n",
+        "print(user.age)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9_fwfm0nWQhj",
+        "outputId": "33c52823-57b9-4b06-aa7e-319d7dd70a69"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "侍太郎\n",
+            "36\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
